@@ -1,0 +1,105 @@
+$color-primary1: rgb(58, 61, 60);
+$color-primary2: rgb(167, 170, 168);
+ 
+
+body {
+    width: calc(100vw - 20px);
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: .9rem;
+}
+
+.app {
+border: 2px solid $color-primary1;
+margin: 0 auto;
+border-radius: 10px;
+}
+
+label {
+margin: .5rem 0;
+font-size: 0.8rem;
+font-weight: bold;
+}
+
+form {
+margin: 15px 15px;
+border: 1px solid $color-primary2;
+width: calc(100% - 25px);
+height: auto;
+border-radius: 4px;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 3px 3px 4px $color-primary1;
+}
+
+input::placeholder {
+font-size: .8rem;
+}
+
+.btn {
+margin-top: 20px;
+display: block;
+margin: 15px auto;
+} 
+
+img {
+max-width: 40%;
+min-width: 40%;
+height: auto;
+display: block;
+margin: 0 auto;
+}
+
+figure {
+margin: 0;
+padding: 0;
+line-height: 0;
+}
+
+.row {
+margin: 15px;
+border: 1px solid $color-primary1;
+border-radius: 10px;
+padding: 10px;
+box-shadow: 3px 3px 4px $color-primary1;
+}
+
+[class^= 'col-'] {
+padding: 0;
+}
+
+p {
+margin: 0;
+padding-top: 20px;
+}
+
+@media (min-width: 768px) {
+.app {
+    width: 70%;
+}
+
+img {
+max-width: 70%;
+}
+}
+
+@media (min-width: 992px) {
+.app {
+    width: 70%;
+}
+
+img {
+width: 70%;
+}
+}
+
+@media (min-width: 1200px) {
+.app {
+    width: 70%;
+}
+
+img {
+width: 70%;
+}
+}
+
